@@ -16,8 +16,11 @@ author: Dylan Tran
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://dtsec.us"
-    - Tools: "https://www.markdowntutorial.com/"
+    - Tools: "https://dtsec.us"
+    - Enumeration: "https://dtsec.us"
+    - Privilege Escalation: "https://dtsec.us"
+    - Lateral Movement: "https://dtsec.us"
+    - Exploitation: "https://dtsec.us"
   HackTheBox: "https://deanattali.com"
 
 # --- Logo --- #
