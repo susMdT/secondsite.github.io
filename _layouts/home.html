@@ -72,6 +72,7 @@ layout: page
       {% assign excerpt_word_count = post.excerpt | number_of_words %}
       {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
         <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
+      <p>{{ 7*7 }}</p>
       {% endif %}
     </div>
     {% endunless %}
