@@ -846,7 +846,7 @@ table tr td :last-child {
 
 /* --- Code blocks --- */
 
-code {
+code { /*singular code snippets */
   padding: 0.125rem 0.25rem;
   color: #c7254e;
   background-color: #f9f2f4;
@@ -870,7 +870,7 @@ pre {
   background: none;
   margin: 0;
 }
-.highlight > pre {
+.highlight > pre { /*the coding block border and left thingy */
   background-image: linear-gradient(
     rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
   background-size: auto 3em;
@@ -880,6 +880,9 @@ pre {
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
+  background-color: white;
+  color: black;
+  
 }
 .highlight table,
 .highlight tr,
@@ -889,7 +892,7 @@ pre {
   padding: 0;
   margin: 0;
 }
-.highlight pre.lineno {
+.highlight pre.lineno { 
   color: rgba(0,0,0,0.3);
   border-radius: 0;
   border-right: 2px solid #444;
