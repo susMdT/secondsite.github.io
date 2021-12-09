@@ -1,7 +1,8 @@
 ---
-layout: minimal
+layout: page
 title: HackThebox Completion
 subtitle: Writeups
+full-width: true
 ---
 <style> /*center text, make 3 columns of equal width, remove the white border this theme has by default*/
 tr {background-color:#696969;}
