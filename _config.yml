@@ -87,7 +87,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "dtsec.us"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -128,8 +128,8 @@ page-col: "#696969"
 text-col: "#ffffff"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+footer-col: "#404040"
+footer-text-col: "#EAEAEA"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
 
