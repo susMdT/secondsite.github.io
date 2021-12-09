@@ -877,11 +877,12 @@ pre {
   background-position-y: 0.625rem;
   border: 1px solid rgba(0,0,0,0.1);
   border-left: 0.4375rem solid #444;
+  background-color: black;
+  
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
-  background-color: white;
-  color: black;
+  color: #00d659;
   
 }
 .highlight table,
