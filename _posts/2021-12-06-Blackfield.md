@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blackfield
-subtitle: Worker HackTheBox
+subtitle: Resolute HackTheBox
 cover-img: /assets/img/htb-bg.png
 thumbnail-img: /assets/img/Blackfield_Big.png
 share-img: /assets/img/path.jpg
