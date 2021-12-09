@@ -13,8 +13,7 @@ tr {background-color:#696969;}
       <p>A list of my completed HackTheBox boxes. I will also have my writeups/walkthroughs for retired ones. Ordered by difficulty first, then name.</p>
     </div>
 </div>
-<br />
-*Writeups probably won't be create for a while as I am grinding classes and CPTC practice
+*Writeups probably won't be create for a while as I am grinding classes and CPTC practice*
 <br />
 
 | Image | Box Name  | Difficulty | Platform | Date Rooted | Comments |
