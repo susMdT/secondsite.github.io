@@ -8,7 +8,11 @@ full-width: true
 tr {background-color:#696969;}
 </style>
 
-A list of my completed HackTheBox boxes. I will also have my writeups/walkthroughs for retired ones. Ordered by difficulty first, then name.
+<div style="text-align: center;">
+    <div style="display: inline-block; text-align: left;">
+      <p>A list of my completed HackTheBox boxes. I will also have my writeups/walkthroughs for retired ones. Ordered by difficulty first, then name.</p>
+    </div>
+</div>
 <br />
 *Writeups probably won't be create for a while as I am grinding classes and CPTC practice
 <br />
