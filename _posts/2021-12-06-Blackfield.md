@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blackfield
-subtitle: Resolute HackTheBox
+subtitle: Blackfield HackTheBox
 cover-img: /assets/img/htb-bg.png
 thumbnail-img: /assets/img/Blackfield_Big.png
 share-img: /assets/img/Blackfield_Release.jpg
