@@ -4,7 +4,7 @@ title: Blackfield
 subtitle: Resolute HackTheBox
 cover-img: /assets/img/htb-bg.png
 thumbnail-img: /assets/img/Blackfield_Big.png
-share-img: /assets/img/path.jpg
+share-img: /assets/img/Blackfield_Release.jpg
 tags: [Active Direcotry, Windows]
 ---
 <img src="https://github.com/susMdT/secondsite.github.io/blob/dev-pages/assets/img/Blackfield_Release.jpg?raw=true" class="mx-auto d-block" unselectable="on" />
