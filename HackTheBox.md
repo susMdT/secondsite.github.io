@@ -15,6 +15,7 @@ tr {background-color:#696969;}
       <i>Writeups probably won't be created for a while since I am grinding CPTC practice and OSCP.</i>
     </div>
 </div>
+<br/>
 
 | Image | Box Name  | Difficulty | Platform | Date Rooted | Comments |
 | ------------- | ------------- | ------------- | ------------- |------------- |------------- |
