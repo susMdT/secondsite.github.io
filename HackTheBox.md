@@ -11,7 +11,7 @@ tr {background-color:#696969;}
 <div style="text-align: center; height: 35px">
     <div style="display: inline-block; text-align: left; height: 0px">
       <p>A list of my completed HackTheBox boxes. I will also have my writeups/walkthroughs for retired ones. Ordered by difficulty first, then name.
-      <i>Writeups probably won't be create for a while as I am grinding classes and CPTC practice</i></p>
+      <em>Writeups probably won't be create for a while as I am grinding classes and CPTC practice</em></p>
     </div>
 </div>
 <br />
