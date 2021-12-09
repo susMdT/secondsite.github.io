@@ -963,6 +963,7 @@ pre {
 
 .blog-post :first-child {
   margin-top: 0;
+  margin-bottom: 5%;
 }
 
 .blog-post img {
