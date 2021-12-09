@@ -8,14 +8,14 @@ full-width: true
 tr {background-color:#696969;}
 </style>
 
-<div style="text-align: center; height: 35px">
+<div style="text-align: center; height: 15px">
     <div style="display: inline-block; text-align: left; height: 0px">
       A list of my completed HackTheBox boxes. I will also have my writeups/walkthroughs for retired ones. Ordered by difficulty first, then name.
       <br/>
       <i>Writeups probably won't be created for a while since I am grinding CPTC practice and OSCP.</i>
     </div>
 </div>
-<br/>
+<br style="line-height:0px;"/>
 
 | Image | Box Name  | Difficulty | Platform | Date Rooted | Comments |
 | ------------- | ------------- | ------------- | ------------- |------------- |------------- |
