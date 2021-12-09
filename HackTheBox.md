@@ -3,6 +3,10 @@ layout: page
 title: HackThebox Completion
 subtitle: Writeups
 ---
+<style> /*center text, make 3 columns of equal width, remove the white border this theme has by default*/
+tr {background-color:#696969;}
+</style>
+
 A list of my completed HackTheBox boxes. I will also have my writeups/walkthroughs for retired ones. Ordered by difficulty first, then name.
 <br />
 *Writeups probably won't be create for a while as I am grinding classes and CPTC practice
