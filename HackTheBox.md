@@ -15,6 +15,7 @@ tr {background-color:#696969;}
       <i>Writeups probably won't be created for a while since I am grinding CPTC practice and OSCP.</p>
     </div>
 </div>
+
 | Image | Box Name  | Difficulty | Platform | Date Rooted | Comments |
 | ------------- | ------------- | ------------- | ------------- |------------- |------------- |
 | <img src="https://github.com/susMdT/Nigerald/blob/master/assets/images/Active.png?raw=true" width="100%" height="100%" unselectable="on" /> | Active | Easy | Windows | 12/3/21 | Simply AD stuff |
