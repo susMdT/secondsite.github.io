@@ -21,12 +21,9 @@ function show() {
 
 My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offensive Security.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My Achivements
+- Active Directory is pretty cool
+- Linux is neat
+- I also go by the handle Nigerald
 
 <div onClick="show()" id="hovere"><h2>Achievements</h2></div>
 
