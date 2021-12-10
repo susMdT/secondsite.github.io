@@ -15,13 +15,18 @@ author: Dylan Tran
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Tools: "https://dtsec.us"
+  Pentesting:
     - Enumeration: "https://dtsec.us"
+    - Exploitation: "https://dtsec.us"
     - Privilege Escalation: "https://dtsec.us"
     - Lateral Movement: "https://dtsec.us"
-    - Exploitation: "https://dtsec.us"
-  HackTheBox: "https://dtsec.us/HTB/"
+  Knowledge Base:
+    - Tools: "https://dtsec.us"
+    - Exploits: "https://dtsec.us"
+    - General Cheetsheet: "https://dtsec.us"
+  Posts by Category: 
+    - HackTheBox: "https://dtsec.us/secondsite.github.io/HackTheBox"
+    - Club Activities: "https://dtsec.us/secondsite.github.io/Club"
 
 # --- Logo --- #
 
@@ -42,16 +47,16 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "dylanttran@cpp.edu"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+#  facebook: deanattali
+  github: susMdT
+#  twitter: daattali
+#  patreon: DeanAttali
+#  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: dylan-tran-84aa46217
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -83,7 +88,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "dtsec.us"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -104,17 +109,31 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+# OG SETTINGS
+#navbar-col: "#EAEAEA"
+#navbar-text-col: "#404040"
+#navbar-border-col: "#DDDDDD"
+#page-col: "#FFFFFF"
+#text-col: "#404040"
+#link-col: "#008AFF"
+#hover-col: "#0085A1"
+#footer-col: "#EAEAEA"
+#footer-text-col: "#777777"
+#footer-link-col: "#404040"
+#footer-hover-col: "#0085A1"
+
+navbar-col: "#404040"
+navbar-text-col: "#EAEAEA"
 navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: "#696969"
+text-col: "#ffffff"
+link-col: "#dad42b"
+hover-col: "#dad42b"
+footer-col: "#404040"
+footer-text-col: "#EAEAEA"
+footer-link-col: "#000000"
+footer-hover-col: "#dad42b"
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour

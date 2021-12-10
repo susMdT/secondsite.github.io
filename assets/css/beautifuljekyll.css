@@ -6,6 +6,17 @@ layout: null
 
 /* --- General --- */
 
+#hovere h2:hover { /*some bullshit for the title page achivement text hover color*/
+  color: #dad42b;
+  cursor: pointer;
+}
+
+.images{
+  margin-bottom: 0px ;,
+  margin-top: 0px ;,
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
 html {
   font-size: 100%
 }
@@ -47,7 +58,7 @@ h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
 a {
-  color: {{ site.link-col | default: "#008AFF" }};
+  color: {{ site.link-col | default: "red" }};
 }
 a:hover,
 a:focus {
@@ -471,7 +482,7 @@ footer .footer-custom-content {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #808080;
+  color: #ffffff;
   font-size: 1.125rem;
   font-style: italic;
   margin: 0 0 0.625rem;
@@ -499,7 +510,7 @@ footer .footer-custom-content {
   width: 12rem;
 }
 .post-preview .post-image {
-  filter: grayscale(40%);
+  filter: grayscale(0%);
 }
 .post-preview .post-image:hover {
   filter: grayscale(0%);
@@ -792,9 +803,9 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 0.625rem 0.3125rem;
-  background-color: #FFF;
+  background-color: black;
   border-radius: 0;
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "white" }};
 }
 @media (min-width: 768px) {
   .pagination .page-item .page-link {
@@ -816,12 +827,12 @@ table {
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: #696969;
   margin: 0;
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #696969;
 }
 table tr th {
   font-weight: bold;
@@ -847,10 +858,10 @@ table tr td :last-child {
 
 /* --- Code blocks --- */
 
-code {
+code { /*singular code snippets */
   padding: 0.125rem 0.25rem;
-  color: #c7254e;
-  background-color: #f9f2f4;
+  color: green;
+  background-color: black;
   border-radius: 0.25rem;
 }
 
@@ -871,16 +882,20 @@ pre {
   background: none;
   margin: 0;
 }
-.highlight > pre {
+.highlight > pre { /*the coding block border and left thingy */
   background-image: linear-gradient(
     rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
   background-size: auto 3em;
   background-position-y: 0.625rem;
   border: 1px solid rgba(0,0,0,0.1);
   border-left: 0.4375rem solid #444;
+  background-color: black;
+  color: green;
+  
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
+  
 }
 .highlight table,
 .highlight tr,
@@ -890,7 +905,7 @@ pre {
   padding: 0;
   margin: 0;
 }
-.highlight pre.lineno {
+.highlight pre.lineno { 
   color: rgba(0,0,0,0.3);
   border-radius: 0;
   border-right: 2px solid #444;
@@ -960,6 +975,7 @@ pre {
 
 .blog-post :first-child {
   margin-top: 0;
+  margin-bottom: 0%;
 }
 
 .blog-post img {
