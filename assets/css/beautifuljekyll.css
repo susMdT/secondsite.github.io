@@ -6,9 +6,9 @@ layout: null
 
 /* --- General --- */
 
-.marginlessText{
-  margin-bottom: 0px;,
-  margin-top: 0px;
+#marginlessText{
+  margin-bottom: 0px !important;,
+  margin-top: 0px !important;
 }
 html {
   font-size: 100%
