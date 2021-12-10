@@ -36,7 +36,7 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <div "d-block w-100" style="height: 500px">
+      <div class="d-block w-100" style="height: 500px">
         <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CPTC.png?raw=true"/>
         <h5>CPTC Western Regional Championships, 2021</h5>
       </div>
