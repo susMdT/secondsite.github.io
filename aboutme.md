@@ -37,15 +37,21 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CPTC.png?raw=true" style="margin-bottom: 15%"/>
-      <!--<div class="carousel-caption d-none d-md-block" style="display: inline-block; height: 400px" >
-        <h5>CPTC Western Regional Championships, 2021</h5> -->
-  <!-- </div> -->
+      <div class="carousel-caption d-none d-md-block" style="display: inline-block; height: 400px" >
+        <h5>CPTC Western Regional Championships, 2021</h5>
+      </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" alt="Second slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CCDC.png?raw=true" style="margin-bottom: 15%" />
+      <div class="carousel-caption d-none d-md-block" style="display: inline-block; height: 400px" >
+        <h5>CPTC Western Regional Championships, 2021</h5>
+      </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" alt="Third slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Hivestorm.png?raw=true" style="margin-bottom: 15%"/>
+      <div class="carousel-caption d-none d-md-block" style="display: inline-block; height: 400px" >
+        <h5>CPTC Western Regional Championships, 2021</h5>
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
