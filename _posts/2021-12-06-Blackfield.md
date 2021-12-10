@@ -5,7 +5,7 @@ subtitle: Blackfield HackTheBox
 cover-img: /assets/img/htb-bg.png
 thumbnail-img: /assets/img/Blackfield_Big.png
 share-img: /assets/img/Blackfield_Release.jpg
-tags: [Active Direcotry, Windows]
+tags: [Active Directory, Windows]
 ---
 <img src="https://github.com/susMdT/secondsite.github.io/blob/dev-pages/assets/img/Blackfield_Release.jpg?raw=true" class="mx-auto d-block" unselectable="on" />
 Blackfield is a hard level box on HackTheBox and requires basic Active Directory knowledge and enumeration skills to solve. The user part was rather lengthy, but with the use of Bloodhound, the path to root becomes clear very early on.
