@@ -21,14 +21,14 @@ It's been about three months into my time at SWIFT and jumping from knowing noth
 The infrastructure for the CTF was held on vSphere, a cloud computer virtualization platform. We had a Kali machine set up, along with three machines representing a level, with the higher levels corresponding to having harder flags. The first machine was a Linux machine, the second a Windows, and the last one was also a Linux machine. We cloned the machines, along with the Kali one, four times, one for each breakout room that we would host during the actual meeting. To actually connect to the machines a player had to ssh into our jumpbox which was open to the public, and from there they could ssh into the actual machine. From there we had the three machines available to each group. Players would use their Kali machine to scan the box that they were on, find vulnerabilities, exploit them to gain a foothold, and then escalate privileges from other vulnerabilities we left on the system. Once they rooted a machine they could find information to help them get started on the next box. At each stage of the penetration process, there would be a flag awarded that they could submit to our CTFd website (a Capture The Flag framework), and a scoreboard would show who was in the lead.
 
 <img src="https://github.com/susMdT/Nigerald/blob/master/assets/images/CTF_Score.PNG?raw=true" width="100%" height="100%" unselectable="on" />
-<p class="subtitle"> The scoreboard </p>
+<p style="text-align: center;"> <i>The scoreboard</i> </p>
 
 ## The Vulnerabilities
 
 Each level had four flags (except the last level) that were awarded for successfully completing a stage of a penetration test on the current machine the player was on. These flags were: Reconnaissance, Exploitation, Privilege Escalation, Lateral Movement.
   
 <img src="https://github.com/susMdT/Nigerald/blob/master/assets/images/CTF_Challenges.PNG?raw=true" width="100%" height="100%" unselectable="on" />
-<p class="subtitle"> The challenges </p>
+<p style="text-align: center;"> <i>The challenges</i> </p>
 
 
 | Level 1:              | Linux |
