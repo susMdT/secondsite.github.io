@@ -38,21 +38,21 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
     <div class="carousel-item active">
       <div class="d-block w-100" style="height: 500px">
         <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CPTC.png?raw=true"/>
-        </br>
+        <br/>
         <h5 style="text-align: center">CPTC Western Regional Championships, 2021</h5>
       </div>
     </div>
     <div class="carousel-item">
       <div class="d-block w-100" style="height: 500px">
         <img class="d-block w-100" alt="Second slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CCDC.png?raw=true"/>
-        </br>
+        <br/>
         <h5 style="text-align: center">6th CCDC First Invitationals, 2021</h5>
       </div>
     </div>
     <div class="carousel-item">
       <div class="d-block w-100" style="height: 500px">
         <img class="d-block w-100" alt="Third slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Hivestorm.png?raw=true"/>
-        </br>
+        <br/>
         <h5 style="text-align: center">5th Hivestorm, 2021</h5>
       </div>
     </div>
