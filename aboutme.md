@@ -35,12 +35,12 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
     <div id="indexFloat">
       <table>
         <tr>
-          <th colspan="3"><h1 style="font-size:20px">Collegiate Penetration Testing Competition</h1></th>    
+          <th colspan="3"><h1 style="font-size:20px; text-align:center">Collegiate Penetration Testing Competition</h1></th>    
         </tr>
         <tr>
-          <td style="width: 40%">Western Regionals</td>
-          <td style="width: 33%">1st Place</td>
-          <td style="width: 33%">2021</td>
+          <td style="width: 40%; text-align:center">Western Regionals</td>
+          <td style="width: 33%; text-align:center">1st Place</td>
+          <td style="width: 33%; text-align:center">2021</td>
         </tr>
       </table>
     </div>
