@@ -6,6 +6,11 @@ layout: null
 
 /* --- General --- */
 
+#hovere h2:hover { /*some bullshit for the title page achivement text hover color*/
+  color: #dad42b;
+  cursor: pointer;
+}
+
 .images{
   margin-bottom: 0px ;,
   margin-top: 0px ;,
