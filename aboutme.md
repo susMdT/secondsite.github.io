@@ -56,6 +56,4 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-    <div class="carousel-caption d-none d-md-block" style="display: inline-block; height: 400px" >
-    <h5>CPTC Western Regional Championships, 2021</h5>
 </div>
