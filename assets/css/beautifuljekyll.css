@@ -860,7 +860,7 @@ table tr td :last-child {
 
 code { /*singular code snippets */
   padding: 0.125rem 0.25rem;
-  color: green;
+  color: #2ff435;
   background-color: black;
   border-radius: 0.25rem;
 }
@@ -890,7 +890,7 @@ pre {
   border: 1px solid rgba(0,0,0,0.1);
   border-left: 0.4375rem solid #444;
   background-color: black;
-  color: green;
+  color: #2ff435;
   
 }
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
