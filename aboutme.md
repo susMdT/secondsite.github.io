@@ -9,7 +9,7 @@ td {text-align: center; border-bottom: 0px;}
 </style>
 <script>
 function show() {
-  var x = document.getElementById("achievements");
+  var x = document.getElementById("carouselExampleIndicators");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -29,7 +29,7 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
 <div onClick="show()" id="hovere"><h2>Achievements</h2></div>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators" style="justify-content:flex-start">
+  <ol class="carousel-indicators" style="justify-content:flex-start; top: 0px">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
