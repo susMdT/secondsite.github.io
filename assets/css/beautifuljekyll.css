@@ -9,6 +9,8 @@ layout: null
 #marginlessText{
   margin-bottom: 0px !important;,
   margin-top: 0px !important;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
 }
 html {
   font-size: 100%
