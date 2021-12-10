@@ -970,7 +970,7 @@ pre {
 
 .blog-post :first-child {
   margin-top: 0;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 
 .blog-post img {
