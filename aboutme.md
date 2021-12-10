@@ -28,55 +28,33 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
 
 <div onClick="show()" id="hovere"><h2>Achievements</h2></div>
 
-<div id="achievements" style="display:none">
-  <div id="sideGrouper">
-    <div id="indexFloat">
-      <img src="https://github.com/susMdT/Nigerald/blob/master/assets/images/CPTC_Logo.png?raw=true" width="100%" height="100%" unselectable="on" />
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/susmdt.github.io/blob/master/assets/images/CPTC_Logo.png?raw=true"
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CPTC Regional Championships</h5>
+        <p>YESSIR</p>
+  </div>
     </div>
-    <div id="indexFloat">
-      <table>
-        <tr>
-          <th colspan="3"><h1 style="font-size:20px; text-align:center">Collegiate Penetration Testing Competition</h1></th>    
-        </tr>
-        <tr>
-          <td style="width: 40%; text-align:center">Western Regionals</td>
-          <td style="width: 33%; text-align:center">1st Place</td>
-          <td style="width: 33%; text-align:center">2021</td>
-        </tr>
-      </table>
+    <div class="carousel-item">
+      <img class="d-block w-100" alt="Second slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CCDC.png?raw=true"
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" alt="Third slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Hivestorm.png?raw=true"
     </div>
   </div>
-  <div id="sideGrouper">
-    <div id="indexFloat">
-      <img src="https://github.com/susMdT/Nigerald/blob/master/assets/images/Hivestorm_Logo.png?raw=true" width="100%" height="100%" unselectable="on" />
-    </div>
-    <div id="indexFloat">
-      <table>
-        <tr>
-          <th colspan="3"><h1 style="font-size:20px; text-align:center">Hivestorm</h1></th>    
-        </tr>
-        <tr>
-          <td style="width: 50%; text-align:center">5th Place</td>
-          <td style="width: 50%; text-align:center">2021</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-  <div id="sideGrouper">
-    <div id="indexFloat">
-      <img src="https://github.com/susMdT/Nigerald/blob/master/assets/images/CCDC.jpg?raw=true" width="100%" height="100%" unselectable="on" />
-    </div>
-    <div id="indexFloat">
-      <table>
-        <tr>
-          <th colspan="3"><h1 style="font-size:20px; text-align:center">Collegiate Cyber Defense Competition</h1></th>    
-        </tr>
-        <tr>
-          <td style="width: 40%; text-align:center">Western Regional Invitationals</td>
-          <td style="width: 33%; text-align:center">6th Place</td>
-          <td style="width: 33%; text-align:center">2021</td>
-        </tr>
-      </table>
-    </div>
-  </div> 
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
