@@ -36,17 +36,17 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/susmdt.github.io/blob/master/assets/images/CPTC_Logo.png?raw=true"
+      <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/susmdt.github.io/blob/master/assets/images/CPTC_Logo.png?raw=true" />
       <div class="carousel-caption d-none d-md-block">
         <h5>CPTC Regional Championships</h5>
         <p>YESSIR</p>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" alt="Second slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CCDC.png?raw=true"
+      <img class="d-block w-100" alt="Second slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CCDC.png?raw=true" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" alt="Third slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Hivestorm.png?raw=true"
+      <img class="d-block w-100" alt="Third slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Hivestorm.png?raw=true" />
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
