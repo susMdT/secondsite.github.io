@@ -24,6 +24,7 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
 - Active Directory is pretty cool
 - Linux is neat
 - I also go by the handle Nigerald
+- Self proclaimed HackTheBox addict
 
 <div onClick="show()" id="hovere"><h2>Achievements</h2></div>
 
@@ -52,11 +53,11 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
     <div id="indexFloat">
       <table>
         <tr>
-          <th colspan="3"><h1 style="font-size:20px">Hivestorm</h1></th>    
+          <th colspan="3"><h1 style="font-size:20px; text-align:center">Hivestorm</h1></th>    
         </tr>
         <tr>
-          <td style="width: 50%">5th Place</td>
-          <td style="width: 50%">2021</td>
+          <td style="width: 50%; text-align:center">5th Place</td>
+          <td style="width: 50%; text-align:center">2021</td>
         </tr>
       </table>
     </div>
@@ -68,12 +69,12 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
     <div id="indexFloat">
       <table>
         <tr>
-          <th colspan="3"><h1 style="font-size:20px">Collegiate Cyber Defense Competition</h1></th>    
+          <th colspan="3"><h1 style="font-size:20px; text-align:center">Collegiate Cyber Defense Competition</h1></th>    
         </tr>
         <tr>
-          <td style="width: 40%">Western Regional Invitationals</td>
-          <td style="width: 33%">6th Place</td>
-          <td style="width: 33%">2021</td>
+          <td style="width: 40%; text-align:center">Western Regional Invitationals</td>
+          <td style="width: 33%; text-align:center">6th Place</td>
+          <td style="width: 33%; text-align:center">2021</td>
         </tr>
       </table>
     </div>
