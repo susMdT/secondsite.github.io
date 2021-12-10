@@ -58,11 +58,11 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" style="top: -50%"role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" style="top: -50%" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
