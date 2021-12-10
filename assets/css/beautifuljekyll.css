@@ -6,6 +6,10 @@ layout: null
 
 /* --- General --- */
 
+.marginlessText{
+  margin-bottom: 0px;,
+  margin-top: 0px;
+}
 html {
   font-size: 100%
 }
