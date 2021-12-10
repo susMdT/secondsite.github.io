@@ -25,7 +25,9 @@ navbar-links:
     - Tools: "https://dtsec.us"
     - Exploits: "https://dtsec.us"
     - General Cheetsheet: "https://dtsec.us"
-  HackTheBox: "https://dtsec.us/secondsite.github.io/HackTheBox"
+  Posts by Category: 
+    - HackTheBox: "https://dtsec.us/secondsite.github.io/HackTheBox"
+    - Club Activities: "https://dtsec.us/secondiste.github.io/Club"
 
 # --- Logo --- #
 
