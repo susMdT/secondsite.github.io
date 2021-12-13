@@ -6,6 +6,7 @@ title: testing wiki format
 <style>
 
 </style>
+  #sidebar{margin-left: 5%;}
 </head>
 
 content <br/>
