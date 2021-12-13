@@ -29,7 +29,7 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
         </h5>
       </div>
   
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="card-body">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators" style="top: -12.5%">
@@ -62,11 +62,9 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators"  role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"  data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
                 </a>
             </div>
         </div>
