@@ -16,8 +16,6 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
 - I also go by the handle Nigerald
 - Self proclaimed HackTheBox addict
 
-<br/>
-
 <div id="accordion">
     <div class="card">
       <div class="card-header" id="headingOne">
@@ -30,7 +28,7 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
   
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="card-body">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="display: none">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators" style="top: -12.5%">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
