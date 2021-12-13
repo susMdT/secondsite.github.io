@@ -6,6 +6,8 @@ title: About me
 <style> /*center text, make 3 columns of equal width, remove the white border this theme has by default*/
 th {text-align: center; border-bottom: 0px;}
 td {text-align: center; border-bottom: 0px;}
+.card{backgroundcolor: inherit}
+.btn-link{#dad42b}
 </style>
 </head>
 
@@ -73,7 +75,7 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
       <div class="card-header" id="headingTwo">
         <h5 class="mb-0">
           <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Collapsible Group Item #2
+            Certifications
           </button>
         </h5>
       </div>
