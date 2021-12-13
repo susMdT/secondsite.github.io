@@ -2,11 +2,13 @@
 layout: page
 title: testing wiki format
 ---
+<head>
 <style>
     .row{width: 100%;}
     #sidebar{margin-left: 5%;}
     
 </style>
+</head>
 <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;" id="sidebar">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
