@@ -9,6 +9,7 @@ td {text-align: center; border-bottom: 0px;}
 .card{background-color: inherit}
 .btn-link{color:#FFFFFF}
 .btn-link:hover{color: #dad42b; text-decoration: underline;}
+.card=header{background-color: rgba(0,0,0,.25);}
 </style>
 </head>
 
