@@ -81,7 +81,7 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
       </div>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
         <div class="card-body" style="background-color: rgba(0,0,0,.1);">
-          None yet
+          OSCP in progress
         </div>
       </div>
     </div>
