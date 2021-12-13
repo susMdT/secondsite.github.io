@@ -7,7 +7,8 @@ title: About me
 th {text-align: center; border-bottom: 0px;}
 td {text-align: center; border-bottom: 0px;}
 .card{background-color: inherit}
-.btn-link{color:#dad42b}
+.btn-link{color:#FFFFFF}
+.btn-link:hover{color: #dad42b; text-decoration: underline;}
 </style>
 </head>
 
