@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: wiki
 title: testing wiki format
 ---
 <head>
