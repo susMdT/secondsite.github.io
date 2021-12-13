@@ -4,9 +4,8 @@ title: testing wiki format
 ---
 <head>
 <style>
-
-</style>
   #sidebar{margin-left: 5%;}
+</style>
 </head>
 
 content <br/>
