@@ -16,8 +16,6 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
 - I also go by the handle Nigerald
 - Self proclaimed HackTheBox addict
 
-<div onClick="show()" id="hovere"><h2>Achievements</h2></div>
-
 <br/>
 
 <div id="accordion">
