@@ -3,7 +3,7 @@ layout: post
 title: Bankrobber
 subtitle: Bankrobber HackTheBox
 cover-img: /assets/img/htb-bg.png
-thumbnail-img: /assets/img/Bankrobber_Big.png
+thumbnail-img: /assets/img/BankRobber_Big.png
 share-img: /assets/img/Bankrobber_Release.jpg
 tags: [XSS, Client-Side, SQLi, Buffer Overflow,  Windows]
 ---
