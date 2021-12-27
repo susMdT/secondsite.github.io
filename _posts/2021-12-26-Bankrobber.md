@@ -6,6 +6,7 @@ cover-img: /assets/img/htb-bg.png
 thumbnail-img: /assets/img/BankRobber_Big.png
 share-img: /assets/img/Bankrobber_Release.jpg
 tags: [XSS, Client-Side, SQLi, Buffer Overflow,  Windows]
+comments: true
 ---
 <img src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Bankrobber_Release.jpg?raw=true" class="mx-auto d-block" unselectable="on" />
 Bankrobber is an insane level box on HackTheBox that utilizes a client side attack and SQL injection and a simple buffer overflow. User was lengthy as it required a lot of waiting and inconsistency, but the path of System was very quick and simple.
