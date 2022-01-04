@@ -43,7 +43,7 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
                     <div class="d-block w-100" style="height: auto">
                       <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CPTC.png?raw=true"/>
                       <br/>
-                      <h5 style="text-align: center">CPTC Western Regional Championships, 2021</h5>
+                      <h5 style="text-align: center">CPTC Western Regional Champions, 2021</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -81,8 +81,21 @@ My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offens
       </div>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
         <div class="card-body" style="background-color: rgba(0,0,0,.1);">
-          OSCP in progress
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators" style="top: -12.5%">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-block w-100" style="height: auto">
+                  <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Dante.PNG?raw=true"/>
+                  <br/>
+                  <h5 style="text-align: center">Dante Pro Labs, 2022</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
