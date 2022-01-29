@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Road To Victory: CPTC 2021
+title: The Road To Victory%3A CPTC 2021
 subtitle: CPTC 2021
 thumbnail-img: /assets/img/CPTC.png
 share-img: /assets/img/CPTC.png
