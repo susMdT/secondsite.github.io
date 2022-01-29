@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Collegiate Cyber Defense Competition 2021-2022
+title: CPTC 2021-2022
 subtitle: The Road to Victory
 thumbnail-img: /assets/img/CPTC.png
 share-img: /assets/img/CPTC.png
