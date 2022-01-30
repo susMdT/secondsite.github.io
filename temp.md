@@ -85,9 +85,7 @@ Once the environment closed, we had about 6 hours to write our report. While we 
 
 The next day we were on complete edge. A very strong report countered with a lack of findings. While Alex attempted to reassure us, deep down we were all very nervous. When the organizers were announcing the top 3 teams, with the third being Cal State Fullerton, my heart dropped for a second, believing that we did worse than last year. When they were revealing the second place team, the suspense within all of us nearly went up tenfold. The organizers described how tight it was, how the score difference between first and second place was less than 1%, or 1 point. This suspense continued for a few minutes before it was revealed that Stanford was second place, and then they quickly revealed that we were first place. Managing to beat Stanford was nice due to the reputation of the university, but being first in the region for the first time in the competition's history was an incredible feeling. Our fears, while well-warranted, turned out to be completely false, and we managed to obtain a result comparable to the endless hours we each spent preparing. Additionally, by placing first in our region, a spot in the global round was secure, allowing us to sleep well that night.
 
-<div class='jekyll-twitter-plugin' align="center">
-    {% twitter https://twitter.com/globalcptc/status/1460060924639944704 maxwidth=500 limit=5 %}
-</div>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Announcing our Western Regional winners:<br><br>1st Place - California State Polytechnic University, Pomona<br>2nd Place - Stanford University <br>3rd Place - California State University, Fullerton</p>&mdash; Collegiate Penetration Testing Competition (@globalcptc) <a href="https://twitter.com/globalcptc/status/1460060924639944704?ref_src=twsrc%5Etfw">November 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Interim
 
