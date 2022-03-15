@@ -1,12 +1,13 @@
 ---
 layout: page
-permalink: testing
-title: HackTheBox Writeups TESTING
+title: HackTheBox Writeups
 ---
 <div id="archives" class="post">
-{% for category in site.categories %}
+<!--- {% for category in site.categories %} --->
+{% assign category = "HackThebox" %}
   <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}  <!--- Get the first value of the category array, and set category_name value to it--->
+    <!---{% capture category_name %}{{ category | first }}{% endcapture %}--->  <!--- Get the first value of the category array, and set category_name value to it--->
+    {% capture category_name %}{{ category }}{% endcapture %}
     <p>{% assign cat = site.data.categories[category_name] %}</p>
     
     <div id="#{{ category_name | slugize }}"></div>
