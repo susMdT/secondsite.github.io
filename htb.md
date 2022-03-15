@@ -13,7 +13,18 @@ title: HackTheBox Writeups
     
     <div id="#{{ category_name | slugize }}"></div>
     <h3 class="category-head" style="margin-bottom: 5px; margin-top: 10px">{{ category_name }}</h3> <!---  HackTheBox title --->
-    {%- capture thumbnail -%}
+    {%- capture thumbnail -%}           <!---  Liquid, line 14 to 23 --->
+          {% if post.thumbnail-img %}
+        {{ post.thumbnail-img }}
+      {% elsif post.cover-img %}
+        {% if post.cover-img.first %}
+          {{ post.cover-img[0].first.first }}
+        {% else %}
+          {{ post.cover-img }}
+        {% endif %}
+      {% else %}
+      {% endif %}
+    {% endcapture %}        <!---  Liquid, line 14 to 23 --->
     <p style="margin-bottom: 10px">{{ cat.description }}</p> <!---  Nonexistant Description --->
     
     <ul style="margin-bottom: 40px">
