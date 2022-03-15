@@ -239,10 +239,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
-paginate_multiple:
-  - paginate: 5
-    paginate_path: '/htb:num/'
-    sub_dir: '/htb'
 
 kramdown:
   input: GFM
@@ -279,8 +275,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-twitter-plugin
-  - jekyll-paginate-multiple
-plugins: ['jekyll-twitter-plugin']
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
