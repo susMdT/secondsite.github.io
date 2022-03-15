@@ -42,7 +42,12 @@ title: HackTheBox Writeups TESTING
      {% endif %}  <!---  Liquid, line 14 to 35 --->
       <article class="archive-item">
         <li><h4 style="margin-left: 0px"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4></li>
-        <li><h4 style="margin-left: 0px"><a href="google.com">{{post.thumbnail-img}}</a></h4></li>
+        <li><h4 style="margin-left: 0px"><a href="google.com">{{post.thumbnail-img}}</a></h4></li> <!---  Debug Output --->
+        <div class="post-image post-image-normal">
+        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+          <img src="https://dtsec.us{{post.thumbnail-img}}" alt="Post thumbnail">
+        </a>
+       </div>
       </article>
 
     {% endfor %}
