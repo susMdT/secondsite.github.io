@@ -9,8 +9,6 @@ title: HackTheBox Writeups
      {% capture category_name %}{{ "HackTheBox" }}{% endcapture %}
     <p>{% assign cat = site.data.categories[category_name] %}</p>
     
-    <div id="#{{ category_name | slugize }}"></div>
-    <h3 class="category-head" style="margin-bottom: 5px; margin-top: 10px">{{ category_name }}</h3> <!---  HackTheBox title --->
     <p style="margin-bottom: 10px">{{ cat.description }}</p> <!---  Nonexistant Description --->
     <ul style="margin-bottom: 40px">
     {% for post in site.categories[category_name] %} <!---  Individual Posts--->
