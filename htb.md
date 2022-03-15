@@ -3,9 +3,10 @@ layout: page
 title: HackTheBox Writeups
 ---
 <div id="archives" class="post">
-{% for category in site.categories %}
+<!---{% for category in site.categories %}--->
   <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}  <!--- Get the first value of the category array, and set category_name value to it--->
+    <!--- {% capture category_name %}{{ category | first }}{% endcapture %}--->  <!--- Get the first value of the category array, and set category_name value to it--->
+     {% capture category_name %}{{ "HackTheBox" }}{% endcapture %}
     <p>{% assign cat = site.data.categories[category_name] %}</p>
     
     <div id="#{{ category_name | slugize }}"></div>
@@ -49,5 +50,5 @@ title: HackTheBox Writeups
     {% endfor %}
     </ul>
   </div>
-{% endfor %}
+<!---{% endfor %}--->
 </div>
