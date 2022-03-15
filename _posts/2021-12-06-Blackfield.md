@@ -6,6 +6,7 @@ cover-img: /assets/img/htb-bg.png
 thumbnail-img: /assets/img/Blackfield_Big.png
 share-img: /assets/img/Blackfield_Release.jpg
 tags: [Active Directory, Windows]
+categories: HackTheBox
 comments: true
 ---
 <img src="https://github.com/susMdT/secondsite.github.io/blob/dev-pages/assets/img/Blackfield_Release.jpg?raw=true" class="mx-auto d-block" unselectable="on" />
