@@ -3,18 +3,21 @@ layout: page
 permalink: categories
 title: HackTheBox Writeups
 ---
+{{ content }}
+
 <div id="archives" class="post">
 {% for category in site.categories %}
   <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}  
     <p>{% assign cat = site.data.categories[category_name] %}</p>
     
     <div id="#{{ category_name | slugize }}"></div>
-    <h3 class="category-head" style="margin-bottom: 5px; margin-top: 10px">{{ category_name }}</h3>
-    <p style="margin-bottom: 10px">{{ cat.description }}</p>
+    <h3 class="category-head" style="margin-bottom: 5px; margin-top: 10px">{{ category_name }}</h3> <!---  HackTheBox title --->
+    {%- capture thumbnail -%}
+    <p style="margin-bottom: 10px">{{ cat.description }}</p> <!---  Nonexistant Description --->
     
     <ul style="margin-bottom: 40px">
-    {% for post in site.categories[category_name] %}
+    {% for post in site.categories[category_name] %} <!---  Individual Posts--->
     
     <article class="archive-item">
       <li><h4 style="margin-left: 0px"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4></li>
