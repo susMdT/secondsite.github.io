@@ -42,6 +42,7 @@ title: HackTheBox Writeups TESTING
      {% endif %}  <!---  Liquid, line 14 to 35 --->
       <article class="archive-item">
         <li><h4 style="margin-left: 0px"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4></li>
+        <li><h4 style="margin-left: 0px"><a href="google.com">{{post.thumbnail-img}}</a></h4></li>
       </article>
 
     {% endfor %}
