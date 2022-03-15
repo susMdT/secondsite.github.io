@@ -3,7 +3,6 @@ layout: page
 permalink: categories
 title: HackTheBox Writeups
 ---
-{{ content }}
 
 <div id="archives" class="post">
 {% for category in site.categories %}
