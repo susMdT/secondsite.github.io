@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: categories
-title: HackTheBox Writeups
+title: HackTheBox Writeups TESTING
 ---
 
 <div id="archives" class="post">
