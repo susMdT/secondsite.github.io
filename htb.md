@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: categories
-title: Categories | Dylan Tran
+title: HackTheBox Writeups
 ---
 <div id="archives" class="post">
 {% for category in site.categories %}
