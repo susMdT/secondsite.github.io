@@ -3,7 +3,7 @@ layout: page
 permalink: categories
 title: HackTheBox Writeups TESTING
 ---
-
+{{ content }}
 <div id="archives" class="post">
 {% for category in site.categories %}
   <div class="archive-group">
