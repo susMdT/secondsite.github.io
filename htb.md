@@ -15,7 +15,7 @@ title: HackTheBox Writeups
     {% for post in site.categories[category_name] %} <!---  Individual Posts--->
       <article class="post-preview">
         <li><h4 style="margin-left: 0px"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4></li>
-        <li><h4 style="margin-left: 0px"><a href="google.com">{{post.thumbnail-img}}, {{site.categories}}</a></h4></li> <!---  Debug Output --->
+        <li><h4 style="margin-left: 0px"><a href="google.com">{{category_name}}</a></h4></li> <!---  Debug Output --->
         <div class="post-image post-image-normal">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
           <img src="https://dtsec.us{{post.thumbnail-img}}" alt="Post thumbnail">
