@@ -1,5 +1,5 @@
 ---
-layout: htb_feed
+layout: page
 title: HackThebox Completion
 subtitle: Writeups
 full-width: true
