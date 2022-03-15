@@ -21,11 +21,11 @@ title: HackTheBox Writeups TESTING
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
           <img src="https://dtsec.us{{post.thumbnail-img}}" alt="Post thumbnail">
         </a>
+        </div>
         <a href="{{ post.url | absolute_url }}">
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
         <h3 class="post-subtitle">{{ post.subtitle | strip_html }}</h3>
         </a>
-       </div>
       </article>
     {% endfor %}
     </ul>
