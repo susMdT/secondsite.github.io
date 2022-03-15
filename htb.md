@@ -3,11 +3,11 @@ layout: page
 title: HackTheBox Writeups
 ---
 <div id="archives" class="post">
-<!--- {% for category in site.categories %} --->
-{% assign category = "HackThebox" %}
+{% for category in site.categories %}
+{% assign category2 = "HackThebox" %}
   <div class="archive-group">
-    <!---{% capture category_name %}{{ category | first }}{% endcapture %}--->  <!--- Get the first value of the category array, and set category_name value to it--->
-    {% capture category_name %}{{ category }}{% endcapture %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}  <!--- Get the first value of the category array, and set category_name value to it--->
+    {% capture category_name %}{{ category2 }}{% endcapture %}
     <p>{% assign cat = site.data.categories[category_name] %}</p>
     
     <div id="#{{ category_name | slugize }}"></div>
@@ -17,7 +17,7 @@ title: HackTheBox Writeups
     {% for post in site.categories[category_name] %} <!---  Individual Posts--->
       <article class="post-preview">
         <li><h4 style="margin-left: 0px"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4></li>
-        <li><h4 style="margin-left: 0px"><a href="google.com">{{post.thumbnail-img}}</a></h4></li> <!---  Debug Output --->
+        <li><h4 style="margin-left: 0px"><a href="google.com">{{post.thumbnail-img}}, {{category}}, {{category2}}, {{site.categories}}</a></h4></li> <!---  Debug Output --->
         <div class="post-image post-image-normal">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
           <img src="https://dtsec.us{{post.thumbnail-img}}" alt="Post thumbnail">
@@ -51,5 +51,5 @@ title: HackTheBox Writeups
     {% endfor %}
     </ul>
   </div>
-<!--- {% endfor %}--->
+{% endfor %}
 </div>
