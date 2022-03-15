@@ -51,5 +51,5 @@ title: HackTheBox Writeups
     {% endfor %}
     </ul>
   </div>
-{% endfor %}
+<!--- {% endfor %}--->
 </div>
