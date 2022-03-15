@@ -239,6 +239,10 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+paginate_multiple:
+  - paginate: 5
+    paginate_path: '/page:num/'
+    sub_dir: '/htb'
 
 kramdown:
   input: GFM
