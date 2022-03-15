@@ -15,7 +15,7 @@ title: HackTheBox Writeups
     <p style="margin-bottom: 10px">{{ cat.description }}</p> <!---  Nonexistant Description --->
     <ul style="margin-bottom: 40px">
     {% for post in site.categories[category_name] %} <!---  Individual Posts--->
-    {%- capture thumbnail -%}           <!---  Liquid, line 14 to 23 --->
+    {%- capture thumbnail -%}           <!---  Liquid, line 14 to 35 --->
       {% if post.thumbnail-img %}
         {{ post.thumbnail-img }}
       {% elsif post.cover-img %}
@@ -26,8 +26,18 @@ title: HackTheBox Writeups
         {% endif %}
       {% else %}
       {% endif %}
-    {% endcapture %}        <!---  Liquid, line 14 to 23 --->
-    
+    {% endcapture %}       
+   {% assign thumbnail=thumbnail | strip %}
+
+    {% if site.feed_show_excerpt == false %}
+    {% if thumbnail != "" %}
+    <div class="post-image post-image-normal">
+      <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+      </a>
+    </div>
+    {% endif %}
+    {% endif %}  <!---  Liquid, line 14 to 35 --->
     <article class="archive-item">
       <li><h4 style="margin-left: 0px"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4></li>
     </article>
