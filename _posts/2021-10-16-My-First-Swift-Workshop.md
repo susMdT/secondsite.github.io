@@ -5,10 +5,8 @@ subtitle: A Pentesting Lab
 thumbnail-img: /assets/img/SWIFT.png
 share-img: /assets/img/SWIFT.jpg
 tags: [SWIFT]
+readtime: something lmao
 ---
-#### 10 minute read
-
-
 
 ## Introduction
 
