@@ -3,8 +3,8 @@ layout: post
 title: The CCDC and CPTC Bootcamp
 subtitle: A reflection
 tags: [CPTC, CCDC, SWIFT]
+readtime: something lmao
 ---
-#### 3 minute read
 
 I was an incoming freshman to Cal Poly Pomona at the time, having graduated just about a month earlier. I joined the SWIFT (Students with an Interest in the Future of Technology) club in May but thought the club was inactive as there wasn't much discussion happening in the club's Discord server for that month and a half. When I was notified of a meeting occuring, I decided to check it out of boredom since I didn't think too much of the club at the time. This was my introduction to CCDC and CPTC, the Collegiate Cyber Defense Competition and the Collegiate Penetration Testing Competition. Seeing the passion from the speakers and alumni, my interest in the club was reignited and I became heavily interested in these competitions. I had only heard of CCDC before this point but I wasn't too aware of what it was yet.
 
