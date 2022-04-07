@@ -1,3 +1,6 @@
+---
+layout: post
+---
 <head>
   <style> /*center text, make 3 columns of equal width, remove the white border this theme has by default*/
   th {text-align: center; border-bottom: 0px;}
