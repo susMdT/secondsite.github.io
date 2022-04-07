@@ -96,12 +96,18 @@
                 </div>
                 <div class="carousel-item">
                   <div class="d-block w-100" style="height: auto">
-                    <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Dante.PNG?raw=true"/>
+                    <img class="d-block w-100" alt="Second slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Dante.PNG?raw=true"/>
                     <br/>
                     <h5 style="text-align: center">Dante Pro Labs, 2022</h5>
                   </div>
                 </div>  
               </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators"  role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"  data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a>
             </div>
           </div>
         </div>
