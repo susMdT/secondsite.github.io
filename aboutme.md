@@ -9,7 +9,7 @@ layout: post
   .btn-link{color:#FFFFFF}
   .btn-link:hover{color: #dad42b; text-decoration: underline;}
   .card-header{background-color: rgba(0,0,0,.25);}
-  head  {height: 100%;}
+  html  {height: 100%;}
   body {height: 100%;}
   </style>
   </head>
