@@ -15,18 +15,8 @@ author: Dylan Tran
 
 navbar-links:
   About Me: "aboutme"
-  Pentesting:
-    - Enumeration: "https://dtsec.us"
-    - Exploitation: "https://dtsec.us"
-    - Privilege Escalation: "https://dtsec.us"
-    - Lateral Movement: "https://dtsec.us"
-  Knowledge Base:
-    - Tools: "https://dtsec.us"
-    - Exploits: "https://dtsec.us"
-    - General Cheetsheet: "https://dtsec.us"
   Posts by Category: 
     - HackTheBox: "https://dtsec.us/htb"
-    - Club Activities: "https://dtsec.us/Club"
 
 # --- Logo --- #
 
