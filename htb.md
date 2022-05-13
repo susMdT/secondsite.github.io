@@ -42,25 +42,8 @@ title: HackTheBox Writeups
           </div>
         {% endif %}
       </article>
-    {% endfor %}
+    {% endfor %} 
     </ul>
-  </div> --->
- 
-<!---{% endfor %}--->
-<!---
-</div>
-{% if paginator.total_pages > 1 %}
-<ul class="pagination main-pager">
-  {% if paginator.previous_page %}
-  <li class="page-item previous">
-    <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="page-item next">
-    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+  </div> 
 --->
+
