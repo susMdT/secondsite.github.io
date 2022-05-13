@@ -2,7 +2,7 @@
 layout: page
 title: HackTheBox Writeups
 ---
-<!--- <div id="archives" class="post">
+<div id="archives" class="post">
   <div class="archive-group">
     
      {% capture category_name %}{{ "HackTheBox" }}{% endcapture %}
@@ -45,5 +45,4 @@ title: HackTheBox Writeups
     {% endfor %} 
     </ul>
   </div> 
---->
 
