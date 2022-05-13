@@ -2,19 +2,16 @@
 layout: page
 title: HackTheBox Writeups
 ---
-<div id="archives" class="post">
-<!---{% for category in site.categories %}--->
+<!--- <div id="archives" class="post">
   <div class="archive-group">
-    <!--- {% capture category_name %}{{ category | first }}{% endcapture %}--->  <!--- Get the first value of the category array, and set category_name value to it--->
+    
      {% capture category_name %}{{ "HackTheBox" }}{% endcapture %}
     <p>{% assign cat = site.data.categories[category_name] %}</p>
     
-    <p style="margin-bottom: 10px">{{ cat.description }}</p> <!---  Nonexistant Description --->
+    <p style="margin-bottom: 10px">{{ cat.description }}</p> 
     <ul style="margin-bottom: 40px">
-    {% for post in site.categories[category_name] %} <!---  Individual Posts--->
+    {% for post in site.categories[category_name] %}
       <article class="post-preview">
-        <!--- <li><h4 style="margin-left: 0px"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4></li> Debug Output --->
-        <!--- <li><h4 style="margin-left: 0px"><a href="google.com">{{category_name}}</a></h4></li>   Debug Output --->
         <div class="post-image post-image-normal">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
           <img src="https://dtsec.us{{post.thumbnail-img}}" alt="Post thumbnail">
@@ -47,7 +44,8 @@ title: HackTheBox Writeups
       </article>
     {% endfor %}
     </ul>
-  </div>
+  </div> -->
+ 
 <!---{% endfor %}--->
 <!---
 </div>
