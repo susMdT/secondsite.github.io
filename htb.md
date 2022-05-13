@@ -48,6 +48,7 @@ title: HackTheBox Writeups
     {% endfor %}
     </ul>
   </div>
+  </div>
 <!---{% endfor %}--->
 <!---
 </div>
