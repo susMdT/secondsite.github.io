@@ -17,9 +17,9 @@ layout: post
   My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offensive Security.
   
   - Active Directory is pretty cool
-  - Linux is neat
   - I also go by the handle Nigerald
-  - Self proclaimed HackTheBox addict
+  - Recovering HackTheBox addict
+  - n00b payload developer in C#
   
   <div id="accordion">
       <div class="card">
