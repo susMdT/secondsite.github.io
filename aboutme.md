@@ -20,6 +20,8 @@ layout: post
   - I also go by the handle Nigerald
   - Recovering HackTheBox addict
   - n00b payload developer in C#
+  - OSCP, CRTO
+  - [My notes](https://generated-cicada-b72.notion.site/Random-Personal-Notes-1d5d063dfc60430189ce2b77ae27c0db) if you want to stalk my activities 
   
   <div id="accordion">
       <div class="card">
