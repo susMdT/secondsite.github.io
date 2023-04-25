@@ -3,118 +3,184 @@ layout: post
 ---
 <head>
   <style> /*center text, make 3 columns of equal width, remove the white border this theme has by default*/
-  th {text-align: center; border-bottom: 0px;}
-  td {text-align: center; border-bottom: 0px;}
-  .card{background-color: inherit}
-  .btn-link{color:#FFFFFF}
-  .btn-link:hover{color: #dad42b; text-decoration: underline;}
-  .card-header{background-color: rgba(0,0,0,.25);}
-  html  {height: 100%;}
-  body {height: 100%;}
+    th {text-align: center; border-bottom: 0px;}
+    td {text-align: center; border-bottom: 0px;}
+    .card{background-color: inherit}
+    .btn-link{color:#FFFFFF}
+    .btn-link:hover{color: #dad42b; text-decoration: underline;}
+    .card-header{background-color: rgba(0,0,0,.25);}
+    html  {height: 100%;}
+    body {height: 100%;}
+    .carousel-item img { border: 4px solid #000000; border-radius: 10px; }
   </style>
-  </head>
+</head>
   
   My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offensive Security.
   
   - Active Directory is pretty cool
+  - Linux is pain
+  - Wannabe Red Team operator/engineer
   - I also go by the handle Nigerald
   - Recovering HackTheBox addict
-  - n00b payload developer in C#
-  - OSCP, CRTO
-  - [My notes](https://generated-cicada-b72.notion.site/Random-Personal-Notes-1d5d063dfc60430189ce2b77ae27c0db) if you want to stalk my activities 
-  
-  <div id="accordion">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <h2>Achievements</h2>
-            </button>
-          </h5>
-        </div>
-    
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-          <div class="card-body" style="background-color: rgba(0,0,0,.1);">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators" style="top: -12.5%">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="d-block w-100" style="height: auto">
-                        <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CPTC.png?raw=true"/>
-                        <br/>
-                        <h5 style="text-align: center">CPTC Western Regional Champions, 2021-2022</h5>
-                        <br/>
-                        <h5 style="text-align: center">CPTC Global Champions, 2021-2022</h5>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="d-block w-100" style="height: auto">
-                        <img class="d-block w-100" alt="Second slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CCDC.png?raw=true"/>
-                        <br/>
-                        <h5 style="text-align: center">6th CCDC First Invitationals, 2021</h5>
-                        <h5 style="text-align: center">8th WRCCDC Regional Finals, 2022</h5>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="d-block w-100" style="height: auto">
-                        <img class="d-block w-100" alt="Third slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Hivestorm.png?raw=true"/>
-                        <br/>
-                        <h5 style="text-align: center">5th Hivestorm, 2021</h5>
-                      </div>
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators"  role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"  data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  </a>
-              </div>
-          </div>
-        </div>
+
+
+# Competitions
+
+<div style="display: flex; justify-content: center; align-items: center; justify-content: center;">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="max-width: 50%; max-height: 50%;">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CPTC.png?raw=true" class="d-block w-100" alt="...">
       </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <h2>Certifications</h2>
-            </button>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-          <div class="card-body" style="background-color: rgba(0,0,0,.1);">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators" style="top: -12.5%">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="display:hidden"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="" style="display:hidden"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="d-block w-100" style="height: auto">
-                    <img class="d-block w-100" alt="First slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/oscp%20screenshot.PNG?raw=true"/>
-                    <br/>
-                    <h5 style="text-align: center">Offensive Security Certified Professional, 2022</h5>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100" style="height: auto">
-                    <img class="d-block w-100" alt="Second slide" src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Dante.PNG?raw=true"/>
-                    <br/>
-                    <h5 style="text-align: center">Dante Pro Labs, 2022</h5>
-                  </div>
-                </div>  
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators"  role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"  data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="carousel-item">
+        <img src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/CCDC.png?raw=true" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Hivestorm.png?raw=true" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <table style="max-width: 50%; margin-left: 20px; margin: 0 auto;">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Date</th>
+        <th>Placement</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hivestorm</td>
+        <td>2021</td>
+        <td>6th</td>
+      </tr>
+      <tr>
+        <td>WRCCDC Invitationals</td>
+        <td>2021</td>
+        <td>6th</td>
+      </tr>
+      <tr>
+        <td>WRCCDC Qualifiers</td>
+        <td>2022</td>
+        <td>7th</td>
+      </tr>
+      <tr>
+        <td>WRCCDC Regionals</td>
+        <td>2022</td>
+        <td>8th</td>
+      </tr>
+      <tr>
+        <td>Hivestorm</td>
+        <td>2021</td>
+        <td>1st</td>
+      </tr>
+      <tr>
+        <td>WRCCDC Invitationals</td>
+        <td>2022</td>
+        <td>2nd</td>
+      </tr>
+      <tr>
+        <td>WRCCDC Qualifiers</td>
+        <td>2023</td>
+        <td>4th</td>
+      </tr>
+      <tr>
+        <td>WRCCDC Regionals</td>
+        <td>2023</td>
+        <td>2nd</td>
+      </tr>
+      <tr>
+        <td>NCCDC Wildcard</td>
+        <td>2023</td>
+        <td>1st</td>
+      </tr>
+      <tr>
+        <td>CPTC Western</td>
+        <td>2021</td>
+        <td>1st</td>
+      </tr>
+      <tr>
+      <td>CPTC Globals</td>
+        <td>2022</td>
+        <td>1st</td>
+      </tr>
+      <tr>
+        <td>CPTC Western</td>
+        <td>2022</td>
+        <td>1st</td>
+      </tr>
+      <tr>
+        <td>CPTC Western</td>
+        <td>2023</td>
+        <td>1st</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+# Certifications/Completion
+
+<div style="display: flex; justify-content: center; align-items: center; justify-content: center;">
+  <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel" style="max-width: 50%; max-height: 50%;" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/oscp%20screenshot.PNG?raw=true" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://github.com/susMdT/secondsite.github.io/blob/master/assets/img/Dante.PNG?raw=true" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <table style="max-width: 50%; margin-left: 20px; margin: 0 auto;">
+    <thead>
+      <tr>
+        <th>Thing</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Pro Labs: Dante Completion</td>
+        <td>Jan 2022</td>
+      </tr>
+      <tr>
+        <td>OSCP</td>
+        <td>Apr 2022</td>
+      </tr>
+      <tr>
+        <td>Pro Labs: Cybernetics Completion</td>
+        <td>Jul 2022</td>
+      </tr>
+      <tr>
+        <td>CRTO</td>
+        <td>Sep 2022</td>
+      </tr>
+      <tr>
+        <td>Pro Labs: Offshore Completion</td>
+        <td>Dec 2022</td>
+      </tr>
+      <tr>
+        <td>CRTL</td>
+        <td>Dec 2022</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

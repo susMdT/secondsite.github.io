@@ -6,3 +6,5 @@ group :jekyll_plugins do
 end
 gem 'jekyll-twitter-plugin'
 gemspec
+
+gem "webrick", "~> 1.8"
