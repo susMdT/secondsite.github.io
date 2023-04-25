@@ -557,3 +557,4 @@ This was a massive rabbithole, as can probably be seen between the gap since my 
 
 # Credits
 *  C5pider for being the basis of this project and for answering my stupid questions for like a month straight  
+*  thefLink for creating Hunt Sleeping Beacons (our windows team loves this)  
