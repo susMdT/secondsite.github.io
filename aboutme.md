@@ -63,6 +63,11 @@ layout: post
         <td>2021</td>
         <td>6th</td>
       </tr>
+        <tr>
+        <td>Hivestorm</td>
+        <td>2022</td>
+        <td>1st</td>
+      </tr>
       <tr>
         <td>WRCCDC Invitationals</td>
         <td>2021</td>
@@ -77,11 +82,6 @@ layout: post
         <td>WRCCDC Regionals</td>
         <td>2022</td>
         <td>8th</td>
-      </tr>
-      <tr>
-        <td>Hivestorm</td>
-        <td>2021</td>
-        <td>1st</td>
       </tr>
       <tr>
         <td>WRCCDC Invitationals</td>
@@ -119,7 +119,7 @@ layout: post
         <td>1st</td>
       </tr>
       <tr>
-        <td>CPTC Western</td>
+        <td>CPTC Globals</td>
         <td>2023</td>
         <td>1st</td>
       </tr>
