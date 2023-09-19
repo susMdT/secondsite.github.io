@@ -6,7 +6,7 @@ layout: null
 
 /* --- General --- */
 
-#hovere h2:hover { /*some bullshit for the title page achivement text hover color*/
+#hovere h2:hover { /*some stuff for the title page achivement text hover color*/
   color: #dad42b;
   cursor: pointer;
 }
