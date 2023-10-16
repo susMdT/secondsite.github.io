@@ -15,7 +15,7 @@ layout: post
   </style>
 </head>
   
-  My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offensive Security.
+  My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offensive Security. I am currently some Red Team R/D + Operations at White Knight Labs and I was formerly a Pentest Intern at IBM X-Force Red.
   
   - Active Directory is pretty cool
   - Linux is pain
