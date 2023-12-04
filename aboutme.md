@@ -20,7 +20,7 @@ layout: post
   - Active Directory is pretty cool
   - Linux is pain
   - Wannabe Red Team operator/engineer
-  - I also go by the handle Nigerald
+  - I also go by the handle Nigerald (Nigel Gerald)
   - Recovering HackTheBox addict
 
 
