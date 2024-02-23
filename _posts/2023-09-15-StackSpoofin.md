@@ -186,7 +186,7 @@ On the left is the stack we're trying to create, and on the right is the executi
 
 Spoofing `NtAllocateVirtualMemory` causes the stack to appear like below.
 
-<img src="https://camo.githubusercontent.com/abe89580f7140821e169b382d705c708f52ff0eec7c2b7244a65befe0806e09e/68747470733a2f2f692e696d6775722e636f6d2f6148576e5834532e706e67" height="75%" width="75%" class="mx-auto d-block" unselectable="on"/>
+<img src="https://i.imgur.com/aHWnX4S.png" height="75%" width="75%" class="mx-auto d-block" unselectable="on"/>
 
 We can see the initial 0 pushed caused the walk to be stopped at our synthetic `RtlUserThreadStart` frame; our function call no longer traces back to meterpreter.
 
