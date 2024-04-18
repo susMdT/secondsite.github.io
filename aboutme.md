@@ -104,6 +104,16 @@ layout: post
         <td>1st</td>
       </tr>
       <tr>
+      <td>WRCCDC Qualifiers</td>
+        <td>2024</td>
+        <td>2nd</td>
+      </tr>
+      <tr>
+      <td>WRCCDC Regionals</td>
+        <td>2024</td>
+        <td>1st</td>
+      </tr>
+      <tr>
         <td>CPTC Western</td>
         <td>2021</td>
         <td>1st</td>
@@ -122,6 +132,16 @@ layout: post
         <td>CPTC Globals</td>
         <td>2023</td>
         <td>1st</td>
+      </tr>
+      <tr>
+      <td>CPTC Western</td>
+        <td>2023</td>
+        <td>1st</td>
+      </tr>
+      <tr>
+        <td>CPTC Globals</td>
+        <td>2024</td>
+        <td>Qualified</td>
       </tr>
     </tbody>
   </table>
