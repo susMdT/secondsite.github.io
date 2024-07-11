@@ -15,9 +15,6 @@ In my last blog post I talked about stack spoofing, a technique used to hide the
 # Reviewing Module Stomping
 Module Stomping works by loading or mapping a module into memory, overwriting it with our payload (preferrably an R/X section), then executing our payload. First, executing shellcode which calls `MessageBox` by directly executing the memory (function pointer), without stomping:
 
-
-A basic example using `Chakra.dll` to execute shellcode which calls `MessageBox`:
-
 <img src="../assets/img/Stomping_1.png" height="75%" width="75%" class="mx-auto d-block" unselectable="on"/><br/>
 
 Notice how the call stack of the main thread reveals that `MessageBox` was executed by a private read/executable memory address. Since it is memory that does not pertain to an module mapped from disk, it may be subject to a scan which would reveal the shellcode's contents. However, if we were to execute the same shellcode with Module Stomping, this would be the result:
