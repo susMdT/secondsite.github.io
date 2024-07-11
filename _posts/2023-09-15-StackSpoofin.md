@@ -14,7 +14,7 @@ readtime: something lmao
 Stack spoofing is a really cool malware technique that isn't new, but has been receving some more attention recently. The goal of this post is to introduce readers to the concept and dive into two implementations. This post will focus only on call stack spoofing in x64 Windows with "active" spoofing techniques. 
 
 # Preface
-None of the work here is novel. The majority of the stack spoofing research that I will be describing was done by [Klezvirus](https://twitter.com/klezvirus), [trickster012](https://twitter.com/trickster012), [waldo-irc](https://twitter.com/waldoirc), and [namaszo](https://twitter.com/namaszo). Massive thanks to them for providing the foundation for me to dig into such a cool topic.
+None of the work here is novel. The majority of the stack spoofing research that I will be describing was done by [Klezvirus](https://twitter.com/klezvirus), [trickster012](https://twitter.com/trickster012), [waldo-irc](https://twitter.com/waldoirc), and [namazso](https://twitter.com/namazso). Massive thanks to them for providing the foundation for me to dig into such a cool topic.
 
 During my internship at X-Force Red I got to work with [0xboku](https://twitter.com/0xboku) in researching the work above. Some of that work got to be integrated with [BokuLoader](https://github.com/boku7/BokuLoader), which was really awesome. Without Bobby's help I wouldn't have been able to understand these techniques as much, so massive thanks to him for sticking through several hour calls with my dumb questions.
 
