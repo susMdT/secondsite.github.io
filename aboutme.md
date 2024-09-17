@@ -15,7 +15,7 @@ layout: post
   </style>
 </head>
   
-  My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offensive Security. I am currently doing some Red Team R/D + Operations at White Knight Labs and I was formerly a Pentest Intern at IBM X-Force Red.
+  My name is Dylan Tran. I'm attending Cal Poly Pomona and am interested in Offensive Security. I was previously doing some contract Red Team R/D + Operations at White Knight Labs and a Pentest Intern at IBM X-Force Red. This blog is a dedicated archive of my learning path of cybersecurity from the moment I started until present. It contains some personal blog posts, writeups, and technical posts on whatever is of my interest at the time.
   
   - Active Directory is pretty cool
   - Linux is pain
@@ -104,6 +104,11 @@ layout: post
         <td>1st</td>
       </tr>
       <tr>
+        <td>NCCDC</td>
+        <td>2023</td>
+        <td>2nd</td>
+      </tr>
+      <tr>
       <td>WRCCDC Qualifiers</td>
         <td>2024</td>
         <td>2nd</td>
@@ -112,6 +117,11 @@ layout: post
       <td>WRCCDC Regionals</td>
         <td>2024</td>
         <td>1st</td>
+      </tr>
+      <tr>
+        <td>NCCDC</td>
+        <td>2024</td>
+        <td>2nd</td>
       </tr>
       <tr>
         <td>CPTC Western</td>
@@ -204,3 +214,18 @@ layout: post
     </tbody>
   </table>
 </div>
+
+# Wall of Credit(??)
+This is a small section of my blog that I'd like to dedicate to everyone who has helped me in security. From start to finish, my path was never alone, and this isn't an exhaustive list, but just whoever I can remember at the current moment
+- @nosecurity
+- @bri5ee
+- @c0ve
+- @baseq
+- @bluemacow456
+- @rsecke
+- @fyr
+- @jbrick
+- @c5pider
+- @bakki
+- @0xboku
+- @4nth3m
