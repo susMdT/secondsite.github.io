@@ -1,0 +1,73 @@
+{% unless page.full-width %}
+<nav class="toc-sidebar" id="toc-sidebar">
+  <div class="toc-toggle">
+    <span class="toc-title">Table of Contents</span>
+    <button class="toc-toggle-btn" id="toc-toggle-btn" aria-label="Toggle table of contents">
+      <i class="fas fa-chevron-right" id="toc-chevron"></i>
+    </button>
+  </div>
+  <ul class="toc-list" id="toc-list"></ul>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var sidebar = document.getElementById('toc-sidebar');
+    if (!sidebar) return;
+
+    var post = document.querySelector('.blog-post');
+    if (!post) return;
+
+    var headings = post.querySelectorAll('h1, h2, h3');
+    if (headings.length === 0) return;
+
+    var tocCol = document.getElementById('toc-col');
+    if (tocCol) tocCol.classList.add('has-toc');
+
+    var tocList = document.getElementById('toc-list');
+    var idCount = 0;
+
+    headings.forEach(function(h) {
+      if (!h.id) h.id = 'section-' + (idCount++);
+
+      var li = document.createElement('li');
+      li.setAttribute('data-target', h.id);
+      if (h.tagName === 'H2' || h.tagName === 'H3') {
+        li.classList.add('toc-sub');
+      }
+
+      var a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+
+    var chevron = document.getElementById('toc-chevron');
+    var collapsed = true;
+    tocList.style.display = 'none';
+
+    document.getElementById('toc-toggle-btn').addEventListener('click', function() {
+      collapsed = !collapsed;
+      tocList.style.display = collapsed ? 'none' : 'block';
+      chevron.className = collapsed ? 'fas fa-chevron-right' : 'fas fa-chevron-down';
+    });
+
+    if (!('IntersectionObserver' in window)) return;
+
+    var currentActive = null;
+
+    headings.forEach(function(h) {
+      new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          if (!e.isIntersecting) return;
+          if (currentActive) currentActive.classList.remove('active');
+          var item = tocList.querySelector('[data-target="' + e.target.id + '"]');
+          if (!item) return;
+          item.classList.add('active');
+          currentActive = item;
+        });
+      }, { rootMargin: '-5% 0px -85% 0px', threshold: 0 }).observe(h);
+    });
+  });
+</script>
+{% endunless %}
