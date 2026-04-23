@@ -9,7 +9,7 @@ categories: Red_Team
 comments: true
 ---
 
-<p style="border-left: 0.3125rem solid #dad42b; padding: 0.625rem 1.25rem; color: #ffffff;"><strong>Disclaimer:</strong> This post was originally published on the <a href="https://www.ibm.com/think/news/fileless-lateral-movement-trapped-com-objects" style="color: #dad42b;">IBM Security Blog</a> and has been mirrored here.</p>
+<p style="border-left: 0.3125rem solid #dad42b; padding: 0.625rem 1.25rem; color: #ffffff;"><strong>Authors:</strong> Dylan Tran and Jimmy Bayne (<a href="https://x.com/bohops" style="color: #dad42b;">@bohops</a>)<br><strong>Disclaimer:</strong> This post was originally published on the <a href="https://www.ibm.com/think/news/fileless-lateral-movement-trapped-com-objects" style="color: #dad42b;">IBM Security Blog</a> and has been mirrored here.</p>
 
 Component Object Model (COM) has been a cornerstone of Microsoft Windows development since the early 1990s and is still very prevalent in modern Windows operating systems and applications. The reliance on COM components and extensive feature development through the years has created a generous attack surface. In February 2025, James Forshaw ([@tiraniddo](https://x.com/tiraniddo)) of Google Project Zero released [a blog post](https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html) detailing a novel approach for abusing Distributed COM (DCOM) remoting technology where trapped COM objects can be used to execute .NET managed code in the context of a server-side DCOM process. Forshaw highlights several use cases for privilege escalation and Protected Process Light (PPL) bypass.
 
